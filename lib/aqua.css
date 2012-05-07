@@ -1,0 +1,44 @@
+div#canvas-frame{
+    position : absolute;
+    top : 0px;
+    left : 0px;
+    right : 0px;
+    bottom : 10px;
+    cursor : pointer;
+    background-color : #EEEEEE;
+    z-index : 5;
+}
+
+
+input#alert_button, div#res{
+    position :relative;
+}
+
+nav{
+    position : absolute;
+    height : 80px;
+    left : 0px;
+    right : 0px;
+    bottom : 0px;
+    background-color : rgba(0,0,0,0.5);
+    z-index : 10;
+}
+
+div.account{
+    position: relative;
+    width : 400px;
+    left : 10px;
+    height : 100px;
+    background-color : #452317;
+}
+
+div.account input{
+    position : relative;
+    left : 20px;
+}
+
+div#moveTo{
+    position : absolute;
+    bottom : 10px;
+    right : 10px;
+}

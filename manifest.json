@@ -1,0 +1,21 @@
+{
+  "name" : "Aqua",
+  "version" : "0.1",
+  "description" : "This app is collect golden fishes with LowLoading points",
+  "app" : {
+    "launch" : {
+        "local_path" : "main.html"
+    }
+  },
+
+  "icons" : {
+    "48" : "img/icon_48.png",
+    "128" : "img/icon_128.png"
+  },
+  "background_page" : "background.html",
+  "permissions" : [
+    "background",
+    "tabs"
+  ]
+
+}
